@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ufs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ufs/ufs_{{ version }}.tar.gz
-  sha256: 627e5bcab9676e0233e297ce7c584caed1cc4e671a0ced7e29bfdb0026e5fbfc
+  sha256: 98b4b044eee7dc97994cfd1d17945d4a6ec38edd7de6b51396a6df291d41870b
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
