@@ -3,7 +3,7 @@ About r-ufs
 
 Home: https://r-packages.gitlab.io/ufs
 
-Package license: GPL-3
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ufs-feedstock/blob/master/LICENSE.txt)
 
