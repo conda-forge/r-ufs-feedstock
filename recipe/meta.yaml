@@ -25,7 +25,6 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - r-ggally >=1.4.0
     - r-suppdists >=1.1.9
     - r-digest >=0.6.19
     - r-diptest >=0.75.7
@@ -36,14 +35,15 @@ requirements:
     - r-gridextra >=2.3
     - r-gtable >=0.2.0
     - r-htmltools >=0.4.0
+    - r-kableextra >=1.1.0
     - r-knitr >=1.22
     - r-pander >=0.6.3
     - r-plyr >=1.8.4
+    - r-rmdpartials >=0.5.8
     - r-scales >=1.0.0
     - r-viridis >=0.5.1
   run:
     - r-base
-    - r-ggally >=1.4.0
     - r-suppdists >=1.1.9
     - r-digest >=0.6.19
     - r-diptest >=0.75.7
@@ -54,9 +54,11 @@ requirements:
     - r-gridextra >=2.3
     - r-gtable >=0.2.0
     - r-htmltools >=0.4.0
+    - r-kableextra >=1.1.0
     - r-knitr >=1.22
     - r-pander >=0.6.3
     - r-plyr >=1.8.4
+    - r-rmdpartials >=0.5.8
     - r-scales >=1.0.0
     - r-viridis >=0.5.1
 
